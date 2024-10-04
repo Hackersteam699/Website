@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Who is my best fnd?</title>
+  <!-- Using Cascading style sheet -->
+  <style type="text/css">
+    button {
+      color: snow;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      background: hotpink;
+      color:
+    }
+    
+    p {
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+  </style>
+</head>
+<body>
+  <p id="Text">Who is my best friend? -</p>
+  <button onclick="Mariya();">Option1</button>
+  <button onclick="Junayed();">Option2</button>
+  <!-- Using javascript -->
+  <script type="text/javascript">
+    function Mariya() {
+  document.getElementById("Text").innerHTML = "My best friend is Mariya!";
+  document.getElementById("Text").style.fontSize = "20px";
+  document.getElementById("Text").style.fontFamily = "Times New Roman', Times, serif";
+  document.getElementById("Text").style.color = "#FF5BED";
+  }
+  
+  function Junayed() {
+    document.getElementById("Text").innerHTML = "My best friend is Junayed!";
+  document.getElementById("Text").style.fontSize = "20px";
+  document.getElementById("Text").style.fontFamily = "Times New Roman', Times, serif";
+  document.getElementById("Text").style.color = "#FF5BED";
+  
+  }
+  </script>
+</body>
+</html>
+
